@@ -1,7 +1,7 @@
 ![RFD_helloworld_1200x500](https://user-images.githubusercontent.com/53033607/166642195-d27cc2c9-0a7a-464d-9a1f-dc50b97cafb3.gif) <br>
 # RandomFont.js
 A repo of "random font shuffle" effect inspired by tv series [Loki](https://www.imdb.com/title/tt9140554/). <br>
-Instead of creating the effect by static iamges, RandomFont changes the font by a pile of codes in real time. Each letter of the target word will be reset to a random font which was selected in advance and animated with a certain framerate.
+Instead of creating the effect by static images, RandomFont changes the font by a pile of codes in real time. Each letter of the target word will be reset to a random font which was selected in advance and animated with a certain framerate.
 
 ## How to use
 Add the script in your HTML... 
