@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+
+body{
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+    justify-items: center;
+}
+
+.randomFont{
+    height:100vh;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap:wrap;
+    font-size: 8vw;
+    justify-content:center;
+    align-items: center;
+}
