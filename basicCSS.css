@@ -1,21 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
+    
+    justify-items: stretch;
+    align-items: start;
+    justify-content: space-evenly;
+
     margin: 0;
     background-color: black;
-    color: whitesmoke;
-    justify-items: center;
 }
 
-.randomFont{
-    height:100vh;
+.inputBox{
+    width: 100vw;
+    height: 40px;
+
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #80a69b;
+    border: 0ch;
+}
+
+#input-1{
+    width: 50vw;
+    padding: 10px;
+    margin: 5px;
+    
+    background: white;
+    border-style: none;
+    border: none;
+}
+
+#btn-1{
+    background: none;
+    font-family: 'Helvetica';
+    font-weight: 800;
+    color: white;
+    opacity: 0.5;
+    border: 0ch;
+}
+
+#btn-1:hover{
+    opacity: 1;
+}
+
+.displayBox{
+    
+    display: flex;
+    flex-direction: column;
+    
+    grid-column-start: span 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    text-align: center;
+
+    
+}
+
+.output{
+    height: 80vh;
+    display: flex;
     flex-wrap:wrap;
-    font-size: 8vw;
-    justify-content:center;
     align-items: center;
+    justify-content: center;
+    font-size: 200px;
+}
+
+#description{
+    height: 100px;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    font-family: 'Helvetica';
+    font-weight: 800;
+    color: #d94f30;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
